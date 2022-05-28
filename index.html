@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cortes.css">
+
+    <title>Caldener</title>
+
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;500&display=swap" rel="stylesheet"> 
+    
+    <script src="js/validacion.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="headermenu"> 
+
+            <div class="imglogo">
+                <a href="index.html"><img src="img/Logo.jpg"  alt="caldener" height="60em"></a>
+            </div>                       
+             
+            <div class="hmenu">
+                <div class="menuitem1"><a href="#idnosotros">Nosotros</a></div>        
+                <div class="menuitem2"><a href="#idproyectos">Proyectos</a></div>        
+                <div class="menuitem3"><a href="#idconsultas">Consultas</a></div>    
+                <div class="menuitem4"><a href="#idcontacto">Contacto</a></div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="section1">
+            <article id="idinicio" class="box1">
+            
+                <div class="texto">
+                    <h1>Soluciones Inteligentes Energia Renovable</h1>
+                    <p>Brindamos un servicios de la mas alta calidad, implementando tecnologias de vanguardia,
+                        en pos de lograr la mayor armonia con el futuro de las personas y la naturaleza</p>
+                </div>
+                <div id="imginicio" class="imge">
+                    <img src="img/20200513_151753.jpg" class="imginicio" alt="panel+molino" width="500" height="600">
+                </div>
+            
+            </article>    
+
+            <article id="idnosotros" class="box2">
+            
+                <div class="texto">
+                    <h1>Nosotros</h1>                    
+                    <p> Somos una empresa lider en soluciones de energia renovable.</p>
+                    <p> En CaldenEr nos tomamos con la seriedad que amerita cada proyecto,
+                            para brindar el mejor servicio coste calidad, 
+                            destacando las buenas practicas y el impacto ambiental.</p>
+                    <p> Contamos con el respaldo de la mas alta tecnologia en paneles y  calefones solares,
+                            inverters, bancos de baterias, y mucho mas.</p>                                                         
+                </div>
+
+                <div id="imgnosotros" class="imge">
+                    <img src="img/dibujoPaneles1.svg" class="imgnosotros" alt="dibujoPaneles" width="500" height="600">                   
+                </div>            
+            </article>
+        </section>
+
+        <section id="idproyectos" class="section2">
+            <div class="box3">
+
+                <div class="texto">
+                    <h1>Proyectos</h1>
+                </div>
+
+                <div class="slider-container">  
+                    <img class="slider-item" src="img/20190607_121255.jpg" width="500" height="500"/>
+                    <img class="slider-item" src="img/20210226_145625.jpg" width="500" height="500"/>
+                    <img class="slider-item" src="img/20200801_140303.jpg" width="500" height="500"/>
+                    <img class="slider-item" src="img/20200513_155342.jpg" width="500" height="500"/>
+                    <img class="slider-item" src="img/20210310_183344.jpg" width="500" height="500"/>
+                </div>
+            </div>
+        
+        </section>
+
+        <section id="idcontacto" class="section3">       
+            
+            <div id="idconsultas" class="consultas">
+                <form id="survey-form" action="https://formspree.io/f/xlezzrdo" method="POST">
+                    <h1>Consultas</h1> 
+
+                        <div class="container">                        
+                    
+                            <fieldset>
+                                <label id="name-label">Name: <input id="name" type="text" required placeholder="Ingrese su nombre y apellido" /></label>
+                            </fieldset>
+                            <fieldset>
+                                <label id="email-label">Email: <input id="email" type="email" required placeholder="Ingrese su email" /></label>
+                            </fieldset>
+                            <fieldset>
+                                <label id="tel-label">Telefono: <input id="tel" type="tel" min="0" max ="130" required placeholder="Ingrese su telefono" /></label>
+                            </fieldset>
+                            <fieldset>
+                                <label>Consulta
+                                <textarea name="consulta" rows="3" cols="30" placeholder="Conulta..."></textarea>
+                                </label>
+                            </fieldset>
+
+                            <input type="Submit" id="submit" value="Submit">  
+                        </div>                             
+                </form>
+            </div>
+
+            <div  class="contacto">
+                <div class="texto">
+                    <h1>Contacto</h1>
+                    <h3>Encontranos cerca de:</h3>                
+                    <h3>Sede Parque chacabuco</h3>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13131.994101931114!2d-58.445372251635725!3d-34.629477551981694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbb7065d907f%3A0x9ce77385d2f35dd3!2sParque%20Chacabuco%2C%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1653156608932!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+            </div>    
+        
+        </section>
+    </main>
+
+    <footer class="footermenu">
+
+        <div class="imglogo">
+            <a href="index.html"><img src="img/Logo.jpg"  alt="caldener" height="60em"></a>
+        </div>
+        
+        <div class="fmenu">
+            <div class="fmenuitem1"><a href="#idnosotros">Nosotros</a></div>        
+            <div class="fmenuitem2"><a href="#idproyectos">Proyectos</a></div>        
+            <div class="fmenuitem3"><a href="#idconsultas">Consultas</a></div>    
+            <div class="fmenuitem4"><a href="#idcontacto">Contacto</a></div>
+        </div>
+        
+        <div class="logosredes">
+            <a id="fblogo" href="https://www.facebook.com/caldener/" target="_blank">
+                <img src="img/iconos/facebook.png" alt="logo" style="width:50px;height:50px;">
+            </a>
+            <a id="wslogo" href="#contacto">
+                <img src="img/iconos/whatsapp.png" alt="logo" style="width:50px;height:50px;">
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>
